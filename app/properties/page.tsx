@@ -9,7 +9,7 @@ function page() {
       <InfoSection
         title="Ready for your next trip?"
         description="Choose the best accommodation from a wide portfolio of properties hosted by Green Sky and get a 10% discount for your first stay."
-        imageSrc="/family.jpg"
+        image="/family.jpg"
         imageAlt="family going for a trip"
       />
       <Suspense fallback={<Spinner />}>
