@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className="flex justify-between w-full items-center py-2.5 px-[70px] bg-white/50 backdrop-blur-xl fixed border-b-1 border-white z-50 ">
+    <nav className="flex justify-between w-full items-center py-2.5 px-[70px] bg-white/50 backdrop-blur-xl fixed border-b-1 border-white z-50 mb-24 ">
       <Link href="/">
         <Image
           src="/GREEN SKY HOLIDAY HOME LOGO-03 (2) 1.png"

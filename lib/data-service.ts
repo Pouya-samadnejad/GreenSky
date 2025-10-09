@@ -1,3 +1,4 @@
+import { notFound } from "next/navigation";
 import { supabase } from "./supabase";
 
 export async function getProperties() {
@@ -20,7 +21,7 @@ export async function getPropertyById(id: string | number) {
     .single();
   if (error) {
     console.error(error);
-    throw new Error("Property could not be loaded");
+    notFound();
   }
 
   return property;

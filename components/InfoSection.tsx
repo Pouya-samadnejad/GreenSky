@@ -9,9 +9,9 @@ interface InfoSectionProps {
   maxCapacity?: number;
   beds?: number;
   bath?: number;
-  area: number;
-  regularPrice: number;
-  location: string;
+  area?: number;
+  regularPrice?: number;
+  location?: string;
 }
 
 function InfoSection({
